@@ -2,7 +2,7 @@ import requests
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "ВСТАВЬ_СЮДА_ТОКЕН"
+TOKEN = "8557601503:AAEg5Bd1WE5cG0HyPJJD97ZmOTaYCNcwU88"
 
 keyboard = [
     [KeyboardButton("📍 Моя погода", request_location=True)],
